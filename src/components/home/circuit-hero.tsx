@@ -537,7 +537,7 @@ function Donut({
             r="24"
             fill="none"
             pathLength={100}
-            stroke={cats[i].color || colors[i % colors.length]}
+            stroke={cats[i]?.color || colors[i % colors.length] || "#efe9df"}
             strokeWidth={hover === i ? 11 : 9}
             strokeDasharray={a.len + " " + (100 - a.len)}
             strokeDashoffset={-a.start}

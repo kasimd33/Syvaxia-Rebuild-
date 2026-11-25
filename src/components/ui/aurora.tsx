@@ -1,3 +1,9 @@
+// Vendored from React Bits (@react-bits/Aurora-TS-TW, MIT). Marked
+// ts-nocheck: the source wasn't written against this project's strict
+// tsconfig (noUncheckedIndexedAccess + indexed WebGL uniform records) and
+// the flagged patterns are intentional there.
+/* eslint-disable */
+// @ts-nocheck
 'use client';
 
 import { useEffect, useRef, type CSSProperties } from 'react';
