@@ -3,6 +3,7 @@ import { ArrowRight, MessageCircle } from "lucide-react";
 
 import { CareerTools } from "@/components/home/career-tools";
 import { CircuitHero } from "@/components/home/circuit-hero";
+import { NestoBrands } from "@/components/home/nesto-brands";
 import { FaqSection } from "@/components/home/faq-section";
 import { FeaturedTracks } from "@/components/home/featured-tracks";
 import { Methodology } from "@/components/home/methodology";
@@ -20,6 +21,7 @@ export default function HomePage() {
   return (
     <>
       <CircuitHero />
+      <NestoBrands />
       <FeaturedTracks courses={courses} />
       <CareerTools />
       <Methodology />
