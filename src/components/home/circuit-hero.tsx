@@ -14,7 +14,8 @@
 import * as React from "react"
 import Link from "next/link"
 
-import { useLeadModal } from "@/components/leads/lead-modal"
+import { useLeadModal } from "@/components/leads/lead-modal";
+import PixelCard from "@/components/ui/pixel-card";
 
 // ---------------------------------------------------------------------------
 // content types (trimmed to what the hero needs)
@@ -682,8 +683,9 @@ const HERO_CSS = `
 .mfl-cards{display:flex;gap:8px}
 
 /* ---- hero stat cards ---- */
-.mfl-stat{width:272px;padding:12px;border-radius:6px;background:var(--mfl-card);color:var(--mfl-cream);box-shadow:0 30px 50px -28px rgba(0,0,0,.6),inset 0 1px 0 rgba(255,255,255,.06);transition:transform .35s cubic-bezier(.2,.8,.2,1)}
-.mfl-stat:hover{transform:translateY(-4px)}
+/* The surface (background, shadow, hover pixel reveal) comes from the
+   PixelCard wrapper; the stat itself is transparent content. */
+.mfl-stat{width:100%;padding:14px;border-radius:12px;background:transparent;color:var(--mfl-cream)}
 .mfl-stat-top{display:flex;justify-content:space-between;gap:8px}
 .mfl-stat-t{font-size:12px;font-weight:500;letter-spacing:-.01em}
 .mfl-stat-d{font-size:9.5px;opacity:.55;margin-top:2px}
@@ -736,7 +738,7 @@ const HERO_CSS = `
 @media (max-width:980px){
 .mfl-hero-foot{flex-direction:column;align-items:stretch}
 .mfl-cards{overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:4px;margin:0 -20px;padding-left:20px;padding-right:20px}
-.mfl-stat{flex:none;scroll-snap-align:start}
+.mfl-cards>*{flex:none;scroll-snap-align:start}
 .mfl-stage{min-height:0;padding-top:clamp(250px,40vw,360px)}
 .mfl-device{top:20px;bottom:auto}
 .mfl-rings{bottom:auto;top:calc(20px + clamp(230px,24vw,330px)/2)}
@@ -908,7 +910,33 @@ export function CircuitHero() {
             </div>
             <div className="mfl-cards mfl-in" style={{ animationDelay: "560ms" }}>
               {STAT_CARDS.slice(0, 2).map((c, i) => (
-                <StatCard key={c.title + i} card={c} />
+                <PixelCard
+                  key={c.title + i}
+                  colors={["#244634", "#2f5640", "#58cb3f"]}
+                  glowColor="#7ddd61"
+                  shape="square"
+                  origin="pointer"
+                  gap={6}
+                  pixelSize={3}
+                  speed={28}
+                  revealDuration={500}
+                  spotlight={0.45}
+                  glow={0.45}
+                  opacity={0.55}
+                  fade={0.75}
+                  trigger="hover"
+                  radius={14}
+                  clickPulse
+                  theme="dark"
+                  className="mfl-pixel-stat"
+                  style={{
+                    width: 272,
+                    height: "auto",
+                    background: "linear-gradient(180deg,#1c2c22 0%,#121d17 100%)",
+                  }}
+                >
+                  <StatCard card={c} />
+                </PixelCard>
               ))}
             </div>
           </div>
