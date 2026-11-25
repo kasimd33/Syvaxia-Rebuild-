@@ -99,60 +99,73 @@ export async function POST(request: Request) {
     console.error("[leads] duplicate check failed:", error);
   }
 
-  let leadRef: string;
+  // ── 1. Sequential Lead ID + persist (with collision retry) ──
+  // The next reference is the HIGHEST existing sequence + 1, not a row
+  // count: deleted leads leave gaps in the numbering, and count-based
+  // numbering eventually collides with a surviving higher reference.
+  let leadId: string;
+  let leadRef = "";
   try {
     const year = new Date().getFullYear();
-    const counted = await db
-      .select({ count: sql<number>`count(*)::int` })
+    const rows = await db
+      .select({
+        maxSeq: sql<number>`coalesce(max(nullif(split_part(${leads.leadRef}, '-', 3), '')::int), 0)`,
+      })
       .from(leads)
       .where(sql`${leads.leadRef} like ${`SYV-${year}-%`}`);
-    leadRef = leadRefForSequence(year, (counted[0]?.count ?? 0) + 1);
-  } catch (error) {
-    console.error("[leads] lead reference generation failed:", error);
-    return json(
-      { ok: false, error: "We couldn't save your request. Please try again, or reach us on WhatsApp." },
-      500,
-    );
-  }
+    const baseSeq = (rows[0]?.maxSeq ?? 0) + 1;
 
-  // ── 1. Persist the lead (tracker columns populated on insert) ──
-  let leadId: string;
-  try {
-    const inserted = await db
-      .insert(leads)
-      .values({
-        leadRef,
-        course: course?.title ?? "Not specified",
-        fullName: input.fullName,
-        email: input.email,
-        phone: input.phone,
-        city: input.city,
-        trackSlug: input.trackSlug === "" ? null : input.trackSlug,
-        audienceType: input.audienceType,
-        currentStatus: input.currentStatus,
-        intent: input.intent,
-        source: buildSource(input.intent, input.utmSource),
-        status: "New Lead",
-        joiningMonth: input.joiningMonth ?? null,
-        priceQuoted: null,
-        nextFollowUpDate: tomorrowIso(),
-        notes: buildAutoNote({
-          intent: input.intent,
-          currentStatus: input.currentStatus,
-          pagePath: input.pagePath,
-        }),
-        foundInTabs: "Website Leads",
-        duplicateCheck,
-        utmSource: input.utmSource ?? null,
-        utmMedium: input.utmMedium ?? null,
-        utmCampaign: input.utmCampaign ?? null,
-      })
-      .returning({ id: leads.id });
-    const insertedId = inserted[0]?.id;
-    if (!insertedId) throw new Error("Insert returned no id");
+    // Two requests landing at the same instant can pick the same
+    // reference — on a unique violation, just try the next number.
+    let insertedId: string | undefined;
+    let lastError: unknown = null;
+    for (let attempt = 0; attempt < 5; attempt++) {
+      leadRef = leadRefForSequence(year, baseSeq + attempt);
+      try {
+        const inserted = await db
+          .insert(leads)
+          .values({
+            leadRef,
+            course: course?.title ?? "Not specified",
+            fullName: input.fullName,
+            email: input.email,
+            phone: input.phone,
+            city: input.city,
+            trackSlug: input.trackSlug === "" ? null : input.trackSlug,
+            audienceType: input.audienceType,
+            currentStatus: input.currentStatus,
+            intent: input.intent,
+            source: buildSource(input.intent, input.utmSource),
+            status: "New Lead",
+            joiningMonth: input.joiningMonth ?? null,
+            priceQuoted: null,
+            nextFollowUpDate: tomorrowIso(),
+            notes: buildAutoNote({
+              intent: input.intent,
+              currentStatus: input.currentStatus,
+              pagePath: input.pagePath,
+            }),
+            foundInTabs: "Website Leads",
+            duplicateCheck,
+            utmSource: input.utmSource ?? null,
+            utmMedium: input.utmMedium ?? null,
+            utmCampaign: input.utmCampaign ?? null,
+          })
+          .returning({ id: leads.id });
+        const id = inserted[0]?.id;
+        if (!id) throw new Error("Insert returned no id");
+        insertedId = id;
+        break;
+      } catch (error) {
+        lastError = error;
+        if ((error as { code?: string })?.code !== "23505") throw error;
+        // unique violation on leadRef — retry with the next sequence
+      }
+    }
+    if (!insertedId) throw lastError ?? new Error("Lead insert failed");
     leadId = insertedId;
   } catch (error) {
-    console.error("[leads] DB insert failed:", error);
+    console.error("[leads] lead persist failed:", error);
     return json(
       { ok: false, error: "We couldn't save your request. Please try again, or reach us on WhatsApp." },
       500,
