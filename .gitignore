@@ -34,3 +34,4 @@ next-env.d.ts
 
 # drizzle
 /drizzle/meta/_journal.json.bak
+scripts/shots/

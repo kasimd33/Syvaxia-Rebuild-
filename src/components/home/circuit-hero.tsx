@@ -810,6 +810,7 @@ export function CircuitHero() {
 
   const rootStyle = {
     "--mfl-brand": PAL.brand,
+    "--mfl-paper": PAL.paper,
     "--mfl-ink": PAL.ink,
     "--mfl-muted": PAL.muted,
     "--mfl-night": PAL.night,
