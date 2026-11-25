@@ -680,7 +680,10 @@ const HERO_CSS = `
 .mfl-info-k{display:flex;align-items:center;gap:6px;font-size:11px;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--mfl-muted);margin-bottom:12px}
 .mfl-info-t{font-size:clamp(17px,1.55vw,22px);line-height:1.18;letter-spacing:-.025em;color:var(--mfl-ink)}
 .mfl-info-t .mfl-line{display:inline}
-.mfl-cards{display:flex;gap:8px}
+.mfl-cards{display:flex;flex-wrap:wrap;justify-content:center;gap:16px}
+
+/* ---- stats strip below the hero ---- */
+.mfl-stats-strip{position:relative;z-index:2;display:flex;justify-content:center;padding:8px 20px 48px;background:var(--mfl-paper)}
 
 /* ---- hero stat cards ---- */
 /* The surface (background, shadow, hover pixel reveal) comes from the
@@ -737,8 +740,6 @@ const HERO_CSS = `
 /* ---- small screens ---- */
 @media (max-width:980px){
 .mfl-hero-foot{flex-direction:column;align-items:stretch}
-.mfl-cards{overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:4px;margin:0 -20px;padding-left:20px;padding-right:20px}
-.mfl-cards>*{flex:none;scroll-snap-align:start}
 .mfl-stage{min-height:0;padding-top:clamp(250px,40vw,360px)}
 .mfl-device{top:20px;bottom:auto}
 .mfl-rings{bottom:auto;top:calc(20px + clamp(230px,24vw,330px)/2)}
@@ -908,40 +909,44 @@ export function CircuitHero() {
                 {two("Cohorts capped at 20–30 so everyone gets *reviewed, every single week.")}
               </p>
             </div>
-            <div className="mfl-cards mfl-in" style={{ animationDelay: "560ms" }}>
-              {STAT_CARDS.slice(0, 2).map((c, i) => (
-                <PixelCard
-                  key={c.title + i}
-                  colors={["#244634", "#2f5640", "#58cb3f"]}
-                  glowColor="#7ddd61"
-                  shape="square"
-                  origin="pointer"
-                  gap={6}
-                  pixelSize={3}
-                  speed={28}
-                  revealDuration={500}
-                  spotlight={0.45}
-                  glow={0.45}
-                  opacity={0.55}
-                  fade={0.75}
-                  trigger="hover"
-                  radius={14}
-                  clickPulse
-                  theme="dark"
-                  className="mfl-pixel-stat"
-                  style={{
-                    width: 272,
-                    height: "auto",
-                    background: "linear-gradient(180deg,#1c2c22 0%,#121d17 100%)",
-                  }}
-                >
-                  <StatCard card={c} />
-                </PixelCard>
-              ))}
-            </div>
           </div>
         </div>
       </header>
+
+      {/* Stat cards — their own strip directly below the hero */}
+      <section className="mfl-stats-strip" aria-label="Live cohort stats">
+        <div className="mfl-cards mfl-in">
+          {STAT_CARDS.slice(0, 2).map((c, i) => (
+            <PixelCard
+              key={c.title + i}
+              colors={["#244634", "#2f5640", "#58cb3f"]}
+              glowColor="#7ddd61"
+              shape="square"
+              origin="pointer"
+              gap={6}
+              pixelSize={3}
+              speed={28}
+              revealDuration={500}
+              spotlight={0.45}
+              glow={0.45}
+              opacity={0.55}
+              fade={0.75}
+              trigger="hover"
+              radius={14}
+              clickPulse
+              theme="dark"
+              className="mfl-pixel-stat"
+              style={{
+                width: 340,
+                height: "auto",
+                background: "linear-gradient(180deg,#1c2c22 0%,#121d17 100%)",
+              }}
+            >
+              <StatCard card={c} />
+            </PixelCard>
+          ))}
+        </div>
+      </section>
     </div>
   )
 }
