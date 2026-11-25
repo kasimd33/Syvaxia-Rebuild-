@@ -13,6 +13,7 @@
 // brand logo.
 import * as React from "react"
 import Link from "next/link"
+import Image from "next/image"
 
 import { useLeadModal } from "@/components/leads/lead-modal";
 import PixelCard from "@/components/ui/pixel-card";
@@ -649,8 +650,9 @@ const HERO_CSS = `
 .mfl-float-tile span{display:block;transition:transform .6s cubic-bezier(.3,1.6,.4,1)}
 .mfl-float-tile:hover{box-shadow:0 1px 0 #fff inset,0 18px 34px -12px rgba(20,30,16,.55),0 0 0 1px color-mix(in srgb,var(--mfl-brand) 40%,transparent)}
 .mfl-hero-head{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;text-align:center;padding:72px 20px 0}
-.mfl-backer{display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--mfl-ink);margin-bottom:22px}
+.mfl-backer{display:inline-flex;align-items:center;gap:10px;font-size:13px;color:var(--mfl-ink);margin-bottom:22px}
 .mfl-backer b{font-weight:500}
+.mfl-backer-logo{height:30px;width:auto;display:block}
 .mfl-backer-mark{display:inline-grid;place-items:center;width:16px;height:16px;border-radius:2px;background:var(--mfl-brand);color:#fff;font-size:10px;font-weight:700;margin-left:2px}
 .mfl-h1{line-height:0}
 .mfl-h1-line,.mfl-h1-line2{display:block;width:100%;height:auto;overflow:visible}
@@ -869,10 +871,14 @@ export function CircuitHero() {
         <div className="mfl-hero-head">
           <p className="mfl-backer mfl-in" style={{ animationDelay: "60ms" }}>
             Backed by
-            <span className="mfl-backer-mark" aria-hidden="true">
-              N
-            </span>
-            <b>Nesto Group</b>
+            <Image
+              src="/brand-nesto.png"
+              alt="Nesto Group"
+              width={491}
+              height={163}
+              priority
+              className="mfl-backer-logo"
+            />
           </p>
           <h1
             className="mfl-h1"
