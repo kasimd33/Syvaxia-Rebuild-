@@ -638,10 +638,11 @@ const HERO_CSS = `
 .mfl-circuit{position:absolute;inset:0;width:100%;height:100%}
 .mfl-trace{fill:none;stroke:var(--mfl-ink);stroke-opacity:.13;stroke-width:1.4}
 .mfl-pulse{fill:none;stroke-width:2.2;stroke-linecap:round;stroke-dasharray:70 930;animation:mfl-run 6s linear infinite}
-.mfl-chip rect{fill:var(--mfl-paper);stroke:var(--mfl-ink);stroke-opacity:.16;stroke-width:1.2;transition:fill .3s,stroke .3s,stroke-opacity .3s}
-.mfl-chip text{font-size:13px;fill:var(--mfl-ink);fill-opacity:.35;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;transition:fill .3s,fill-opacity .3s}
-.mfl-chip.is-hot rect{fill:#fff;stroke:var(--mfl-brand);stroke-opacity:.8}
-.mfl-chip.is-hot text{fill:var(--mfl-brand);fill-opacity:1}
+.mfl-chip{filter:drop-shadow(0 5px 10px rgba(20,30,16,.14))}
+.mfl-chip rect{fill:var(--mfl-cream);stroke:var(--mfl-brand);stroke-opacity:.5;stroke-width:1.4;transition:fill .3s,stroke .3s,stroke-opacity .3s}
+.mfl-chip text{font-size:13px;fill:var(--mfl-brand);fill-opacity:.6;font-family:ui-monospace,SFMono-Regular,Menlo,monospace;transition:fill .3s,fill-opacity .3s}
+.mfl-chip.is-hot rect{fill:var(--mfl-brand);stroke:var(--mfl-brand);stroke-opacity:1}
+.mfl-chip.is-hot text{fill:var(--mfl-cream);fill-opacity:.95}
 .mfl-float-tile{position:absolute;z-index:3;top:34%;right:14%;width:46px;height:46px;display:grid;place-items:center;border-radius:9px;background:linear-gradient(180deg,#fff,#f1ede6);box-shadow:0 1px 0 #fff inset,0 14px 30px -12px rgba(20,30,16,.45),0 0 0 1px rgba(0,0,0,.04);animation:mfl-bob 5s ease-in-out infinite}
 .mfl-float-tile span{display:block;transition:transform .6s cubic-bezier(.3,1.6,.4,1)}
 .mfl-float-tile:hover{box-shadow:0 1px 0 #fff inset,0 18px 34px -12px rgba(20,30,16,.55),0 0 0 1px color-mix(in srgb,var(--mfl-brand) 40%,transparent)}
