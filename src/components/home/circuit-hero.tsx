@@ -652,11 +652,18 @@ const HERO_CSS = `
 .mfl-backer{display:inline-flex;align-items:center;gap:6px;font-size:13px;color:var(--mfl-ink);margin-bottom:22px}
 .mfl-backer b{font-weight:500}
 .mfl-backer-mark{display:inline-grid;place-items:center;width:16px;height:16px;border-radius:2px;background:var(--mfl-brand);color:#fff;font-size:10px;font-weight:700;margin-left:2px}
-.mfl-h1{font-size:clamp(42px,6.2vw,92px);line-height:.98;font-weight:400;letter-spacing:-.055em;color:var(--mfl-ink)}
-.mfl-line{display:block}
-.mfl-mute{color:var(--mfl-muted)}
-.mfl-h1 .mfl-line:nth-child(1){animation-delay:120ms}
-.mfl-h1 .mfl-line:nth-child(2){animation-delay:190ms}
+.mfl-h1{line-height:0}
+.mfl-h1-line,.mfl-h1-line2{display:block;width:100%;height:auto;overflow:visible}
+.mfl-h1-line2{width:58%;margin:6px auto 0}
+.mfl-h1 text{font-family:var(--font-montserrat),Montserrat,sans-serif;font-size:128px;font-weight:600;letter-spacing:-3px}
+/* stroke layer: brand outlines draw in via dashoffset */
+.mfl-stroke{fill:none;stroke:var(--mfl-brand);stroke-width:1.4;stroke-dasharray:1300;stroke-dashoffset:1300;animation:mfl-draw 1.6s cubic-bezier(.2,.8,.2,1) forwards}
+/* fill layer: ink fill wiped in left-to-right via clip-path */
+.mfl-fill{fill:var(--mfl-ink);clip-path:inset(-12% 100% -15% 0);animation:mfl-wipe .9s cubic-bezier(.2,.8,.2,1) forwards}
+.mfl-h1-mute{stroke:var(--mfl-muted)}
+.mfl-h1-mute2{fill:var(--mfl-muted)}
+@keyframes mfl-draw{to{stroke-dashoffset:0}}
+@keyframes mfl-wipe{to{clip-path:inset(-12% -2% -15% 0)}}
 .mfl-sub{max-width:340px;margin-top:22px;font-size:14px;line-height:1.45;color:var(--mfl-muted)}
 .mfl-cta-row{display:flex;flex-wrap:wrap;justify-content:center;gap:8px;margin-top:22px}
 .mfl-in{animation:mfl-rise .9s cubic-bezier(.2,.8,.2,1) backwards}
@@ -754,6 +761,8 @@ const HERO_CSS = `
 /* ---- reduced motion ---- */
 @media (prefers-reduced-motion:reduce){
 .mfl-root *,.mfl-root *::before,.mfl-root *::after{animation:none !important;transition:none !important}
+.mfl-stroke{stroke-dashoffset:0}
+.mfl-fill{clip-path:none}
 }
 `
 
@@ -865,7 +874,42 @@ export function CircuitHero() {
             </span>
             <b>Nesto Group</b>
           </p>
-          <h1 className="mfl-h1">{two("Enterprise-Ready *SAP*\nConsultants", "mfl-in")}</h1>
+          <h1
+            className="mfl-h1"
+            style={{ width: "min(92vw, 900px)", margin: "0 auto" }}
+          >
+            {/* Animated headline: brand-green outlines draw in, then the ink
+                fill wipes across — pure CSS (stroke-dashoffset + clip-path),
+                no runtime JS. Line 2 uses a narrower viewBox so "Consultants"
+                keeps the same visual size as line 1. */}
+            <span className="sr-only">Enterprise-Ready SAP Consultants</span>
+            <svg viewBox="0 0 1401 164" className="mfl-h1-line" aria-hidden="true">
+              <text
+                x="0"
+                y="132"
+                className="mfl-stroke"
+                style={{ animationDelay: "120ms" }}
+              >
+                Enterprise-Ready <tspan className="mfl-h1-mute">SAP</tspan>
+              </text>
+              <text
+                x="0"
+                y="132"
+                className="mfl-fill"
+                style={{ animationDelay: "320ms" }}
+              >
+                Enterprise-Ready <tspan className="mfl-h1-mute2">SAP</tspan>
+              </text>
+            </svg>
+            <svg viewBox="0 0 800 164" className="mfl-h1-line2" aria-hidden="true">
+              <text x="0" y="132" className="mfl-stroke" style={{ animationDelay: "260ms" }}>
+                Consultants
+              </text>
+              <text x="0" y="132" className="mfl-fill" style={{ animationDelay: "460ms" }}>
+                Consultants
+              </text>
+            </svg>
+          </h1>
           <p className="mfl-sub mfl-in" style={{ animationDelay: "260ms" }}>
             Train like a delivery consultant — live S/4HANA systems, scenario labs every module,
             and a capstone project you defend.
