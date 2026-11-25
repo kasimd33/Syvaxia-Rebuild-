@@ -1,0 +1,166 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 5 0 R 7 0 R] /Count 3 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 3429 >>
+stream
+BT
+/F1 16 Tf 1 0 0 1 50 708.8 Tm (SAP FICO — FINANCIAL ACCOUNTING & CONTROLLING ON S/4HANA) Tj
+/F1 10 Tf 1 0 0 1 50 690.3 Tm (Master finance & controlling configuration on S/4HANA with the Universal Journal.) Tj
+/F1 9 Tf 1 0 0 1 50 675.3 Tm () Tj
+/F1 9 Tf 1 0 0 1 50 658.2 Tm (16 weeks · 10 hrs/week · 8 modules · Level: professional · Language: English) Tj
+/F1 9 Tf 1 0 0 1 50 645.2 Tm (Delivery: live-virtual, onsite-bengaluru, hybrid · Live system access: Yes) Tj
+/F1 12 Tf 1 0 0 1 50 613.8 Tm (RECOMMENDED FOR) Tj
+/F1 9 Tf 1 0 0 1 50 598.7 Tm (- Accounting & finance professionals transitioning into SAP functional roles) Tj
+/F1 9 Tf 1 0 0 1 50 583.7 Tm (- Fresh commerce graduates targeting ERP consulting careers) Tj
+/F1 9 Tf 1 0 0 1 50 568.6 Tm (- SAP end-users in FI/CO who want consultant-level configuration skills) Tj
+/F1 12 Tf 1 0 0 1 50 539.2 Tm (PREREQUISITES) Tj
+/F1 9 Tf 1 0 0 1 50 524.2 Tm (- Commerce/finance background \(B.Com, MBA Finance, CA-Inter\) OR 1+ year in) Tj
+/F1 9 Tf 1 0 0 1 50 511.1 Tm (  accounting/finance operations) Tj
+/F1 9 Tf 1 0 0 1 50 496.1 Tm (- Basic understanding of the accounting cycle \(journal → ledger → trial balance\)) Tj
+/F1 9 Tf 1 0 0 1 50 481.0 Tm (- No prior SAP experience required) Tj
+/F1 12 Tf 1 0 0 1 50 451.6 Tm (TOOLS & ENVIRONMENT) Tj
+/F1 9 Tf 1 0 0 1 50 436.6 Tm (SAP S/4HANA \(live sandbox system access\) · SAP GUI & Fiori Launchpad · Universal Journal) Tj
+/F1 9 Tf 1 0 0 1 50 423.5 Tm (  \(ACDOCA\) reporting · SAP Fiori analytical apps for finance · LSMW / Migration Cockpit basics) Tj
+/F1 12 Tf 1 0 0 1 50 394.1 Tm (TARGET ROLES) Tj
+/F1 9 Tf 1 0 0 1 50 379.1 Tm (SAP FICO Consultant · S/4HANA Finance Consultant · SAP FI Analyst · Finance Process) Tj
+/F1 9 Tf 1 0 0 1 50 366.0 Tm (  Consultant) Tj
+/F1 12 Tf 1 0 0 1 50 334.6 Tm (CURRICULUM) Tj
+/F1 10 Tf 1 0 0 1 50 312.1 Tm (M01 — ERP & Financial Accounting Foundations \(1 week\)) Tj
+/F1 9 Tf 1 0 0 1 50 298.1 Tm (· ERP concepts and the SAP S/4HANA finance landscape) Tj
+/F1 9 Tf 1 0 0 1 50 284.0 Tm (· Enterprise structure: company code, controlling area, currency settings) Tj
+/F1 9 Tf 1 0 0 1 50 270.0 Tm (· Posting period variants and fiscal year variants) Tj
+/F1 9 Tf 1 0 0 1 50 255.9 Tm (· Document types, number ranges, and field status groups) Tj
+/F1 9 Tf 1 0 0 1 50 241.9 Tm (· Chart of accounts design) Tj
+/F1 9 Tf 1 0 0 1 50 227.8 Tm (Lab: Configure a complete company code from scratch on a live system.) Tj
+/F1 10 Tf 1 0 0 1 50 205.3 Tm (M02 — General Ledger & the Universal Journal \(2 weeks\)) Tj
+/F1 9 Tf 1 0 0 1 50 191.3 Tm (· G/L master data and account groups) Tj
+/F1 9 Tf 1 0 0 1 50 177.2 Tm (· Document splitting and segment reporting) Tj
+/F1 9 Tf 1 0 0 1 50 163.2 Tm (· Universal Journal \(ACDOCA\): how S/4HANA merges FI and CO line items) Tj
+/F1 9 Tf 1 0 0 1 50 149.1 Tm (· Ledger approach vs accounts approach for parallel accounting) Tj
+/F1 9 Tf 1 0 0 1 50 135.1 Tm (· G/L reporting: Fiori apps vs classic reports) Tj
+/F1 9 Tf 1 0 0 1 50 121.0 Tm (Lab: Post and analyse entries through the Universal Journal and reconcile across ledgers.) Tj
+/F1 10 Tf 1 0 0 1 50 98.5 Tm (M03 — Accounts Payable & Accounts Receivable \(3 weeks\)) Tj
+/F1 9 Tf 1 0 0 1 50 84.5 Tm (· Vendor/customer master data and account groups) Tj
+/F1 9 Tf 1 0 0 1 50 70.4 Tm (· The procure-to-pay and order-to-cash postings FI touches) Tj
+/F1 9 Tf 1 0 0 1 50 56.4 Tm (· Payment terms, payment runs, and dunning) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 3841 >>
+stream
+BT
+/F1 9 Tf 1 0 0 1 50 718.0 Tm (· Automatic payment program configuration) Tj
+/F1 9 Tf 1 0 0 1 50 703.9 Tm (· Correspondence and interest calculation) Tj
+/F1 9 Tf 1 0 0 1 50 689.9 Tm (· Machine-learning cash application in S/4HANA) Tj
+/F1 9 Tf 1 0 0 1 50 675.8 Tm (Lab: Execute a full automatic payment run and dunning cycle with real open items.) Tj
+/F1 10 Tf 1 0 0 1 50 653.3 Tm (M04 — Asset Accounting & Bank Accounting \(2 weeks\)) Tj
+/F1 9 Tf 1 0 0 1 50 639.3 Tm (· Asset classes, depreciation areas, and charts of depreciation) Tj
+/F1 9 Tf 1 0 0 1 50 625.2 Tm (· Acquisition, transfer, retirement, and impairment postings) Tj
+/F1 9 Tf 1 0 0 1 50 611.2 Tm (· New Asset Accounting in S/4HANA — what changed) Tj
+/F1 9 Tf 1 0 0 1 50 597.1 Tm (· Periodic asset closing and reconciliation to G/L) Tj
+/F1 9 Tf 1 0 0 1 50 583.1 Tm (· House banks, payment methods, and bank reconciliation) Tj
+/F1 9 Tf 1 0 0 1 50 569.0 Tm (Lab: Configure a depreciation area and run a month-end asset close with reconciliation.) Tj
+/F1 10 Tf 1 0 0 1 50 546.5 Tm (M05 — Month-End & Year-End Closing \(1 week\)) Tj
+/F1 9 Tf 1 0 0 1 50 532.5 Tm (· The financial closing cockpit) Tj
+/F1 9 Tf 1 0 0 1 50 518.4 Tm (· Accruals, provisions, and foreign currency valuation) Tj
+/F1 9 Tf 1 0 0 1 50 504.4 Tm (· GR/IR clearing and regrouping) Tj
+/F1 9 Tf 1 0 0 1 50 490.3 Tm (· Reconciliation of sub-ledgers to G/L) Tj
+/F1 9 Tf 1 0 0 1 50 476.3 Tm (· Closing checklist design and F.01-style reporting) Tj
+/F1 9 Tf 1 0 0 1 50 462.2 Tm (Lab: Run a simulated month-end close end-to-end and produce a closing checklist.) Tj
+/F1 10 Tf 1 0 0 1 50 439.7 Tm (M06 — Controlling: Cost Elements, Cost Centers & Internal Orders \(2 weeks\)) Tj
+/F1 9 Tf 1 0 0 1 50 425.7 Tm (· Cost element master data in S/4HANA \(G/L-account-based\)) Tj
+/F1 9 Tf 1 0 0 1 50 411.6 Tm (· Cost center accounting: planning, splitting, and assessment) Tj
+/F1 9 Tf 1 0 0 1 50 397.6 Tm (· Activity types and price calculation) Tj
+/F1 9 Tf 1 0 0 1 50 383.5 Tm (· Internal orders: budgeting, status management, settlement) Tj
+/F1 9 Tf 1 0 0 1 50 369.5 Tm (· Statistical key figures and allocations) Tj
+/F1 9 Tf 1 0 0 1 50 355.4 Tm (Lab: Design a cost center hierarchy with planning and periodic allocations.) Tj
+/F1 10 Tf 1 0 0 1 50 332.9 Tm (M07 — Product Costing & Profitability Analysis \(3 weeks\)) Tj
+/F1 9 Tf 1 0 0 1 50 318.9 Tm (· Cost object controlling and product cost planning) Tj
+/F1 9 Tf 1 0 0 1 50 304.8 Tm (· Material cost estimates with BOMs and routings) Tj
+/F1 9 Tf 1 0 0 1 50 290.8 Tm (· Standard cost estimates and variance calculation) Tj
+/F1 9 Tf 1 0 0 1 50 276.7 Tm (· Profitability Analysis \(COPA\): costing-based vs account-based) Tj
+/F1 9 Tf 1 0 0 1 50 262.7 Tm (· Account-based COPA in S/4HANA and margin analysis) Tj
+/F1 9 Tf 1 0 0 1 50 248.6 Tm (· Market segment reporting in Fiori) Tj
+/F1 9 Tf 1 0 0 1 50 234.6 Tm (Lab: Execute a full costing run: standard cost estimate → production variance → COPA margin) Tj
+/F1 9 Tf 1 0 0 1 50 221.5 Tm (  report.) Tj
+/F1 10 Tf 1 0 0 1 50 199.0 Tm (M08 — Integration, Cutover & Consulting Practice \(2 weeks\)) Tj
+/F1 9 Tf 1 0 0 1 50 185.0 Tm (· FI/MM and FI/SD integration points and account determination) Tj
+/F1 9 Tf 1 0 0 1 50 170.9 Tm (· Data migration with the Migration Cockpit) Tj
+/F1 9 Tf 1 0 0 1 50 156.9 Tm (· UAT, cutover planning, and hypercare) Tj
+/F1 9 Tf 1 0 0 1 50 142.8 Tm (· Writing functional specs for RICEFW objects) Tj
+/F1 9 Tf 1 0 0 1 50 128.8 Tm (· Certification roadmap and 50+ interview scenarios) Tj
+/F1 9 Tf 1 0 0 1 50 114.7 Tm (Lab: Document your capstone configuration as a client-ready blueprint and present it in a) Tj
+/F1 9 Tf 1 0 0 1 50 101.7 Tm (  mock workshop.) Tj
+/F1 12 Tf 1 0 0 1 50 70.3 Tm (CAPSTONE PROJECT) Tj
+/F1 10 Tf 1 0 0 1 50 53.8 Tm (End-to-End S/4HANA Finance Configuration Blueprint) Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 2533 >>
+stream
+BT
+/F1 9 Tf 1 0 0 1 50 717.0 Tm (Configure a simulated manufacturing company on a live S/4HANA system: full company code) Tj
+/F1 9 Tf 1 0 0 1 50 703.9 Tm (  setup with parallel ledgers, AP/AR with an automatic payment run, new asset accounting, cost) Tj
+/F1 9 Tf 1 0 0 1 50 690.9 Tm (  center planning with allocations, a standard cost estimate with variance analysis, and) Tj
+/F1 9 Tf 1 0 0 1 50 677.8 Tm (  account-based COPA reporting — documented as a client-ready configuration blueprint.) Tj
+/F1 9 Tf 1 0 0 1 50 663.8 Tm (- Configured company code with fiscal year, currencies, and parallel ledgers) Tj
+/F1 9 Tf 1 0 0 1 50 649.7 Tm (- AP/AR setup including an executed automatic payment run) Tj
+/F1 9 Tf 1 0 0 1 50 635.7 Tm (- New Asset Accounting with a completed month-end close) Tj
+/F1 9 Tf 1 0 0 1 50 621.6 Tm (- Cost center & internal order structure with periodic allocations) Tj
+/F1 9 Tf 1 0 0 1 50 607.6 Tm (- Product costing run with variance and COPA margin analysis) Tj
+/F1 9 Tf 1 0 0 1 50 593.5 Tm (- Configuration blueprint document \(fit-gap style\)) Tj
+/F1 12 Tf 1 0 0 1 50 562.1 Tm (TRAINER) Tj
+/F1 10 Tf 1 0 0 1 50 545.6 Tm (Deepa Krishnan — Principal SAP Finance Consultant, 16 years) Tj
+/F1 9 Tf 1 0 0 1 50 530.6 Tm (Deepa combines a Chartered Accountancy background with 16 years of SAP FI/CO delivery. She) Tj
+/F1 9 Tf 1 0 0 1 50 517.5 Tm (  has led finance workstreams in 11 rollouts and specialises in S/4HANA Finance transitions —) Tj
+/F1 9 Tf 1 0 0 1 50 504.5 Tm (  teaching configuration the way it is actually deployed, closing books included.) Tj
+/F1 9 Tf 1 0 0 1 50 490.4 Tm (- SAP Certified Application Associate – S/4HANA Finance) Tj
+/F1 9 Tf 1 0 0 1 50 476.4 Tm (- Chartered Accountant \(CA\)) Tj
+/F1 9 Tf 1 0 0 1 50 462.3 Tm (- Led FI/CO workstreams in 11 SAP rollouts across pharma, FMCG, and auto components) Tj
+/F1 12 Tf 1 0 0 1 50 430.9 Tm (UPCOMING COHORTS) Tj
+/F1 9 Tf 1 0 0 1 50 415.9 Tm (- Starts 2026-02-14 · Sat–Sun, 9:30 AM – 1:30 PM IST · onsite-bengaluru · 8/25 seats left) Tj
+/F1 9 Tf 1 0 0 1 50 402.8 Tm (  \(filling\)) Tj
+/F1 9 Tf 1 0 0 1 50 387.8 Tm (- Starts 2026-04-06 · Tue–Thu, 7:00 – 9:00 PM IST · live-virtual · 30/30 seats left \(open\)) Tj
+/F1 9 Tf 1 0 0 1 50 364.7 Tm () Tj
+/F1 8 Tf 1 0 0 1 50 349.1 Tm (Syvaxia does not offer job or salary guarantees. Cohort seats are confirmed on first-come,) Tj
+/F1 8 Tf 1 0 0 1 50 337.5 Tm (  first-serve basis.) Tj
+/F1 8 Tf 1 0 0 1 50 323.9 Tm (Questions? WhatsApp us or visit syvaxia.com — Where passion meets innovation.) Tj
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000127 00000 n 
+0000000253 00000 n 
+0000003734 00000 n 
+0000003860 00000 n 
+0000007753 00000 n 
+0000007879 00000 n 
+0000010464 00000 n 
+trailer
+<< /Size 10 /Root 1 0 R >>
+startxref
+10534
+%%EOF

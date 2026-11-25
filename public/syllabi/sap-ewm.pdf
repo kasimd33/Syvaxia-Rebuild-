@@ -1,0 +1,154 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 5 0 R 7 0 R] /Count 3 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 3355 >>
+stream
+BT
+/F1 16 Tf 1 0 0 1 50 708.8 Tm (SAP EWM — EXTENDED WAREHOUSE MANAGEMENT ON S/4HANA) Tj
+/F1 10 Tf 1 0 0 1 50 690.3 Tm (Warehouse structure, inbound/outbound flows, RF, and wave management on embedded EWM.) Tj
+/F1 9 Tf 1 0 0 1 50 675.3 Tm () Tj
+/F1 9 Tf 1 0 0 1 50 658.2 Tm (14 weeks · 10 hrs/week · 7 modules · Level: advanced · Language: English) Tj
+/F1 9 Tf 1 0 0 1 50 645.2 Tm (Delivery: live-virtual, onsite-bengaluru · Live system access: Yes) Tj
+/F1 12 Tf 1 0 0 1 50 613.8 Tm (RECOMMENDED FOR) Tj
+/F1 9 Tf 1 0 0 1 50 598.7 Tm (- SAP MM/WM consultants upskilling into EWM) Tj
+/F1 9 Tf 1 0 0 1 50 583.7 Tm (- Warehouse operations leads transitioning to SAP consulting) Tj
+/F1 9 Tf 1 0 0 1 50 568.6 Tm (- Supply chain professionals in 3PL, e-commerce, or manufacturing) Tj
+/F1 12 Tf 1 0 0 1 50 539.2 Tm (PREREQUISITES) Tj
+/F1 9 Tf 1 0 0 1 50 524.2 Tm (- SAP MM/SD or WM background, OR 2+ years in warehouse/logistics operations) Tj
+/F1 9 Tf 1 0 0 1 50 509.1 Tm (- Understanding of goods receipt, picking, and packing processes) Tj
+/F1 9 Tf 1 0 0 1 50 494.1 Tm (- Comfort with process-oriented learning \(flow diagrams, scenario walkthroughs\)) Tj
+/F1 12 Tf 1 0 0 1 50 464.7 Tm (TOOLS & ENVIRONMENT) Tj
+/F1 9 Tf 1 0 0 1 50 449.6 Tm (SAP S/4HANA embedded EWM \(live sandbox system access\) · SAP GUI & Fiori Launchpad · RF) Tj
+/F1 9 Tf 1 0 0 1 50 436.6 Tm (  framework \(RFUI simulation\) · Slotting & Condition Technique tools · Labor Management and) Tj
+/F1 9 Tf 1 0 0 1 50 423.5 Tm (  MFS overview environments) Tj
+/F1 12 Tf 1 0 0 1 50 394.1 Tm (TARGET ROLES) Tj
+/F1 9 Tf 1 0 0 1 50 379.1 Tm (SAP EWM Consultant · S/4HANA Warehouse Management Consultant · Warehouse Process Consultant) Tj
+/F1 9 Tf 1 0 0 1 50 366.0 Tm (  · EWM Functional Analyst) Tj
+/F1 12 Tf 1 0 0 1 50 334.6 Tm (CURRICULUM) Tj
+/F1 10 Tf 1 0 0 1 50 312.1 Tm (M01 — EWM Overview & Warehouse Structure \(2 weeks\)) Tj
+/F1 9 Tf 1 0 0 1 50 298.1 Tm (· EWM vs WM vs stock room management — the S/4HANA decision) Tj
+/F1 9 Tf 1 0 0 1 50 284.0 Tm (· Embedded vs decentralised EWM deployment) Tj
+/F1 9 Tf 1 0 0 1 50 270.0 Tm (· Warehouse structure: storage types, sections, bins, and quant) Tj
+/F1 9 Tf 1 0 0 1 50 255.9 Tm (· Warehouse number, party entitled to dispose, and storage bin master) Tj
+/F1 9 Tf 1 0 0 1 50 241.9 Tm (· Storage type roles and warehouse process types) Tj
+/F1 9 Tf 1 0 0 1 50 227.8 Tm (Lab: Design and configure a multi-storage-type warehouse on a live embedded EWM system.) Tj
+/F1 10 Tf 1 0 0 1 50 205.3 Tm (M02 — Master Data & Product/Resource Setup \(1 week\)) Tj
+/F1 9 Tf 1 0 0 1 50 191.3 Tm (· Product master integration from MM) Tj
+/F1 9 Tf 1 0 0 1 50 177.2 Tm (· Packaging specifications and handling units) Tj
+/F1 9 Tf 1 0 0 1 50 163.2 Tm (· Resources, users, and queue assignment) Tj
+/F1 9 Tf 1 0 0 1 50 149.1 Tm (· Bins and bin types/bin status management) Tj
+/F1 9 Tf 1 0 0 1 50 135.1 Tm (· Measurement documents basics) Tj
+/F1 9 Tf 1 0 0 1 50 121.0 Tm (Lab: Configure packaging specs and set up RF resources with queue assignments.) Tj
+/F1 10 Tf 1 0 0 1 50 98.5 Tm (M03 — Inbound Processing \(2 weeks\)) Tj
+/F1 9 Tf 1 0 0 1 50 84.5 Tm (· Inbound delivery creation from ASN and PO) Tj
+/F1 9 Tf 1 0 0 1 50 70.4 Tm (· Yard management basics and gate check-in) Tj
+/F1 9 Tf 1 0 0 1 50 56.4 Tm (· Goods receipt process: deconsolidation, counting, putaway) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 3967 >>
+stream
+BT
+/F1 9 Tf 1 0 0 1 50 718.0 Tm (· Putaway strategies and storage type search sequences) Tj
+/F1 9 Tf 1 0 0 1 50 703.9 Tm (· Value-added services in inbound) Tj
+/F1 9 Tf 1 0 0 1 50 689.9 Tm (Lab: Run a full ASN-based inbound flow with putaway strategy determination.) Tj
+/F1 10 Tf 1 0 0 1 50 667.4 Tm (M04 — Outbound Processing & Wave Management \(3 weeks\)) Tj
+/F1 9 Tf 1 0 0 1 50 653.3 Tm (· Outbound delivery request → delivery order → warehouse task) Tj
+/F1 9 Tf 1 0 0 1 50 639.3 Tm (· Picking strategies: FIFO, partial pallets, near-line picking) Tj
+/F1 9 Tf 1 0 0 1 50 625.2 Tm (· Wave management: wave templates, release methods, filters) Tj
+/F1 9 Tf 1 0 0 1 50 611.2 Tm (· Packing, HU management, and goods issue) Tj
+/F1 9 Tf 1 0 0 1 50 597.1 Tm (· PPF \(Post Processing Framework\) actions in outbound) Tj
+/F1 9 Tf 1 0 0 1 50 583.1 Tm (Lab: Release a sales-order wave, pick via RF simulation, pack, and ship — end to end.) Tj
+/F1 10 Tf 1 0 0 1 50 560.6 Tm (M05 — Slotting, Replenishment & Internal Warehouse Processes \(2 weeks\)) Tj
+/F1 9 Tf 1 0 0 1 50 546.5 Tm (· Slotting determination and rearrangement) Tj
+/F1 9 Tf 1 0 0 1 50 532.5 Tm (· Replenishment: planned, order-based, and minimum stock) Tj
+/F1 9 Tf 1 0 0 1 50 518.4 Tm (· Internal warehouse movements and stock transfers) Tj
+/F1 9 Tf 1 0 0 1 50 504.4 Tm (· Ad hoc movements and warehouse task merging) Tj
+/F1 9 Tf 1 0 0 1 50 490.3 Tm (· Cycle counting and physical inventory in EWM) Tj
+/F1 9 Tf 1 0 0 1 50 476.3 Tm (Lab: Execute slotting for a product range and configure fixed-bin replenishment.) Tj
+/F1 10 Tf 1 0 0 1 50 453.8 Tm (M06 — RF Framework, Labor Management & MFS Overview \(2 weeks\)) Tj
+/F1 9 Tf 1 0 0 1 50 439.7 Tm (· RF framework: screens, logic, and queue management) Tj
+/F1 9 Tf 1 0 0 1 50 425.7 Tm (· RF menu design and user experience) Tj
+/F1 9 Tf 1 0 0 1 50 411.6 Tm (· Labor management: work sequences and performance measurement) Tj
+/F1 9 Tf 1 0 0 1 50 397.6 Tm (· Material Flow System \(MFS\) for automation — architecture overview) Tj
+/F1 9 Tf 1 0 0 1 50 383.5 Tm (· Integration points with conveyor/automation vendors) Tj
+/F1 9 Tf 1 0 0 1 50 369.5 Tm (Lab: Configure a custom RF menu with exception handling for a pick-pack queue.) Tj
+/F1 10 Tf 1 0 0 1 50 347.0 Tm (M07 — Deployment, Testing & Consulting Practice \(2 weeks\)) Tj
+/F1 9 Tf 1 0 0 1 50 332.9 Tm (· Embedded EWM activation and scoping) Tj
+/F1 9 Tf 1 0 0 1 50 318.9 Tm (· Testing strategy: unit, integration, and operational walkthroughs) Tj
+/F1 9 Tf 1 0 0 1 50 304.8 Tm (· Go-live cutover: stock migration and cut-off planning) Tj
+/F1 9 Tf 1 0 0 1 50 290.8 Tm (· Hypercare and exception management in live warehouses) Tj
+/F1 9 Tf 1 0 0 1 50 276.7 Tm (· Interview scenarios: 40+ EWM case questions) Tj
+/F1 9 Tf 1 0 0 1 50 262.7 Tm (Lab: Write and execute an integration test script for your capstone warehouse and present) Tj
+/F1 9 Tf 1 0 0 1 50 249.6 Tm (  the cutover plan.) Tj
+/F1 12 Tf 1 0 0 1 50 218.2 Tm (CAPSTONE PROJECT) Tj
+/F1 10 Tf 1 0 0 1 50 201.7 Tm (Embedded EWM Warehouse Go-Live Blueprint) Tj
+/F1 9 Tf 1 0 0 1 50 186.7 Tm (Design and configure a complete distribution-centre warehouse on live embedded EWM: storage) Tj
+/F1 9 Tf 1 0 0 1 50 173.6 Tm (  structure with putaway and picking strategies, ASN-driven inbound, wave-managed outbound) Tj
+/F1 9 Tf 1 0 0 1 50 160.6 Tm (  with RF pick-pack, fixed-bin replenishment, and slotting — culminating in a scripted) Tj
+/F1 9 Tf 1 0 0 1 50 147.5 Tm (  operational walkthrough and a go-live cutover plan.) Tj
+/F1 9 Tf 1 0 0 1 50 133.5 Tm (- Configured warehouse structure with putaway/picking strategies) Tj
+/F1 9 Tf 1 0 0 1 50 119.4 Tm (- Inbound ASN-to-putaway flow demonstrated end to end) Tj
+/F1 9 Tf 1 0 0 1 50 105.4 Tm (- Wave-managed outbound flow with RF picking simulation) Tj
+/F1 9 Tf 1 0 0 1 50 91.3 Tm (- Slotting and replenishment configuration) Tj
+/F1 9 Tf 1 0 0 1 50 77.3 Tm (- Integration test scripts and cutover/migration plan) Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 1300 >>
+stream
+BT
+/F1 12 Tf 1 0 0 1 50 700.6 Tm (TRAINER) Tj
+/F1 10 Tf 1 0 0 1 50 684.1 Tm (Sneha Ravindran — Lead SAP EWM Consultant, 12 years) Tj
+/F1 9 Tf 1 0 0 1 50 669.1 Tm (Sneha has configured EWM for 8 distribution centres — from 3PL fast-catalogue operations to) Tj
+/F1 9 Tf 1 0 0 1 50 656.0 Tm (  automation-led sites. She teaches EWM the way warehouses actually run: structure first, then) Tj
+/F1 9 Tf 1 0 0 1 50 643.0 Tm (  flows, then exceptions, all on embedded S/4HANA systems.) Tj
+/F1 9 Tf 1 0 0 1 50 628.9 Tm (- SAP Certified Application Associate – EWM in S/4HANA) Tj
+/F1 9 Tf 1 0 0 1 50 614.9 Tm (- Implemented EWM for 8 distribution centres including 2 automation-led \(MFS\) sites) Tj
+/F1 9 Tf 1 0 0 1 50 600.8 Tm (- B.E. Logistics Engineering) Tj
+/F1 12 Tf 1 0 0 1 50 569.4 Tm (UPCOMING COHORTS) Tj
+/F1 9 Tf 1 0 0 1 50 554.4 Tm (- Starts 2026-02-21 · Sat–Sun, 9:30 AM – 1:30 PM IST · live-virtual · 14/20 seats left) Tj
+/F1 9 Tf 1 0 0 1 50 541.3 Tm (  \(open\)) Tj
+/F1 9 Tf 1 0 0 1 50 518.3 Tm () Tj
+/F1 8 Tf 1 0 0 1 50 502.7 Tm (Syvaxia does not offer job or salary guarantees. Cohort seats are confirmed on first-come,) Tj
+/F1 8 Tf 1 0 0 1 50 491.1 Tm (  first-serve basis.) Tj
+/F1 8 Tf 1 0 0 1 50 477.5 Tm (Questions? WhatsApp us or visit syvaxia.com — Where passion meets innovation.) Tj
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000127 00000 n 
+0000000253 00000 n 
+0000003660 00000 n 
+0000003786 00000 n 
+0000007805 00000 n 
+0000007931 00000 n 
+0000009283 00000 n 
+trailer
+<< /Size 10 /Root 1 0 R >>
+startxref
+9353
+%%EOF

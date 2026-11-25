@@ -1,0 +1,156 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 5 0 R 7 0 R] /Count 3 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 3405 >>
+stream
+BT
+/F1 16 Tf 1 0 0 1 50 708.8 Tm (ENTERPRISE FULL-STACK ENGINEERING WITH JAVA & REACT) Tj
+/F1 10 Tf 1 0 0 1 50 690.3 Tm (Java 17, Spring Boot microservices, and React — shipped to the cloud in one portfolio.) Tj
+/F1 9 Tf 1 0 0 1 50 675.3 Tm () Tj
+/F1 9 Tf 1 0 0 1 50 658.2 Tm (20 weeks · 12 hrs/week · 7 modules · Level: fresher-friendly · Language: English) Tj
+/F1 9 Tf 1 0 0 1 50 645.2 Tm (Delivery: live-virtual, onsite-bengaluru, hybrid · Live system access: Yes) Tj
+/F1 12 Tf 1 0 0 1 50 613.8 Tm (RECOMMENDED FOR) Tj
+/F1 9 Tf 1 0 0 1 50 598.7 Tm (- Fresh graduates \(B.E./B.Tech/MCA/BCA\) targeting product & service company roles) Tj
+/F1 9 Tf 1 0 0 1 50 583.7 Tm (- Support/QA/manual testers moving into development) Tj
+/F1 9 Tf 1 0 0 1 50 568.6 Tm (- Developers from other stacks \(PHP, legacy Java\) modernising to current tooling) Tj
+/F1 12 Tf 1 0 0 1 50 539.2 Tm (PREREQUISITES) Tj
+/F1 9 Tf 1 0 0 1 50 524.2 Tm (- Basic programming familiarity \(any language — academic level is fine\)) Tj
+/F1 9 Tf 1 0 0 1 50 509.1 Tm (- A laptop capable of running IntelliJ IDEA, Docker Desktop, and Node.js) Tj
+/F1 9 Tf 1 0 0 1 50 494.1 Tm (- Consistency: 12 hours/week including lab time) Tj
+/F1 12 Tf 1 0 0 1 50 464.7 Tm (TOOLS & ENVIRONMENT) Tj
+/F1 9 Tf 1 0 0 1 50 449.6 Tm (Java 17 \(LTS\) & IntelliJ IDEA · Spring Boot 3 & Spring Security · PostgreSQL & Redis · React) Tj
+/F1 9 Tf 1 0 0 1 50 436.6 Tm (  19, TypeScript & Next.js · Docker & Docker Compose · GitHub Actions CI/CD · AWS free tier) Tj
+/F1 9 Tf 1 0 0 1 50 423.5 Tm (  \(EC2/RDS deployment target\)) Tj
+/F1 12 Tf 1 0 0 1 50 394.1 Tm (TARGET ROLES) Tj
+/F1 9 Tf 1 0 0 1 50 379.1 Tm (Full Stack Developer · Java Backend Developer · Software Engineer \(Java + React\) · Backend) Tj
+/F1 9 Tf 1 0 0 1 50 366.0 Tm (  Engineer) Tj
+/F1 12 Tf 1 0 0 1 50 334.6 Tm (CURRICULUM) Tj
+/F1 10 Tf 1 0 0 1 50 312.1 Tm (M01 — Modern Java Foundations \(3 weeks\)) Tj
+/F1 9 Tf 1 0 0 1 50 298.1 Tm (· Java 17 syntax, OOP, and collections in depth) Tj
+/F1 9 Tf 1 0 0 1 50 284.0 Tm (· Streams, lambdas, and functional interfaces) Tj
+/F1 9 Tf 1 0 0 1 50 270.0 Tm (· Records, sealed classes, and switch expressions) Tj
+/F1 9 Tf 1 0 0 1 50 255.9 Tm (· Exception strategy and clean code practices) Tj
+/F1 9 Tf 1 0 0 1 50 241.9 Tm (· JUnit 5 & test-driven habits from week one) Tj
+/F1 9 Tf 1 0 0 1 50 227.8 Tm (Lab: Build a tested console domain library \(invoicing engine\) with full unit coverage.) Tj
+/F1 10 Tf 1 0 0 1 50 205.3 Tm (M02 — Spring Boot & REST API Engineering \(3 weeks\)) Tj
+/F1 9 Tf 1 0 0 1 50 191.3 Tm (· Spring core: DI, beans, and configuration) Tj
+/F1 9 Tf 1 0 0 1 50 177.2 Tm (· Spring Boot autoconfiguration and profiles) Tj
+/F1 9 Tf 1 0 0 1 50 163.2 Tm (· REST API design: resources, status codes, versioning, pagination) Tj
+/F1 9 Tf 1 0 0 1 50 149.1 Tm (· Spring Data JPA & PostgreSQL: entities, repositories, transactions) Tj
+/F1 9 Tf 1 0 0 1 50 135.1 Tm (· Validation, exception handling, and API documentation \(OpenAPI\)) Tj
+/F1 9 Tf 1 0 0 1 50 121.0 Tm (Lab: Ship a production-structured REST API with OpenAPI docs and integration tests.) Tj
+/F1 10 Tf 1 0 0 1 50 98.5 Tm (M03 — Security & Application Hardening \(2 weeks\)) Tj
+/F1 9 Tf 1 0 0 1 50 84.5 Tm (· Spring Security filter chain architecture) Tj
+/F1 9 Tf 1 0 0 1 50 70.4 Tm (· JWT authentication & refresh token flows) Tj
+/F1 9 Tf 1 0 0 1 50 56.4 Tm (· Role-based authorization) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 4161 >>
+stream
+BT
+/F1 9 Tf 1 0 0 1 50 718.0 Tm (· OWASP Top 10 applied: injection, XSS, CSRF, secrets handling) Tj
+/F1 9 Tf 1 0 0 1 50 703.9 Tm (· Password hashing and secure configuration) Tj
+/F1 9 Tf 1 0 0 1 50 689.9 Tm (Lab: Secure your API with JWT + role-based access and pass an OWASP checklist review.) Tj
+/F1 10 Tf 1 0 0 1 50 667.4 Tm (M04 — Microservices & System Design Fundamentals \(3 weeks\)) Tj
+/F1 9 Tf 1 0 0 1 50 653.3 Tm (· Monolith → microservices: when the trade-off pays) Tj
+/F1 9 Tf 1 0 0 1 50 639.3 Tm (· Service discovery, API gateway, and config management) Tj
+/F1 9 Tf 1 0 0 1 50 625.2 Tm (· Inter-service communication: REST, messaging with Kafka basics) Tj
+/F1 9 Tf 1 0 0 1 50 611.2 Tm (· Resilience: timeouts, circuit breakers, retries) Tj
+/F1 9 Tf 1 0 0 1 50 597.1 Tm (· Caching with Redis; idempotency and consistency patterns) Tj
+/F1 9 Tf 1 0 0 1 50 583.1 Tm (Lab: Split your API into two communicating services with a gateway and Kafka event flow.) Tj
+/F1 10 Tf 1 0 0 1 50 560.6 Tm (M05 — React, TypeScript & the Modern Frontend \(3 weeks\)) Tj
+/F1 9 Tf 1 0 0 1 50 546.5 Tm (· React 19 fundamentals: components, hooks, and state patterns) Tj
+/F1 9 Tf 1 0 0 1 50 532.5 Tm (· TypeScript for typed UI contracts) Tj
+/F1 9 Tf 1 0 0 1 50 518.4 Tm (· Data fetching, caching, and error/loading states) Tj
+/F1 9 Tf 1 0 0 1 50 504.4 Tm (· Forms, validation, and accessible UI components) Tj
+/F1 9 Tf 1 0 0 1 50 490.3 Tm (· Routing and protected routes) Tj
+/F1 9 Tf 1 0 0 1 50 476.3 Tm (Lab: Build the React/TypeScript frontend for your API with full auth flow.) Tj
+/F1 10 Tf 1 0 0 1 50 453.8 Tm (M06 — Docker, CI/CD & Cloud Deployment \(3 weeks\)) Tj
+/F1 9 Tf 1 0 0 1 50 439.7 Tm (· Docker: images, layers, Compose for local environments) Tj
+/F1 9 Tf 1 0 0 1 50 425.7 Tm (· Environment configuration & secrets management) Tj
+/F1 9 Tf 1 0 0 1 50 411.6 Tm (· GitHub Actions: build, test, and deploy pipelines) Tj
+/F1 9 Tf 1 0 0 1 50 397.6 Tm (· Deploying Spring Boot + Postgres to AWS \(free tier\)) Tj
+/F1 9 Tf 1 0 0 1 50 383.5 Tm (· Monitoring basics: structured logging and health checks) Tj
+/F1 9 Tf 1 0 0 1 50 369.5 Tm (Lab: Containerise your full stack and deploy it through a CI/CD pipeline to a live URL.) Tj
+/F1 10 Tf 1 0 0 1 50 347.0 Tm (M07 — Portfolio, Interviews & Professional Practice \(3 weeks\)) Tj
+/F1 9 Tf 1 0 0 1 50 332.9 Tm (· Portfolio project polish: READMEs, architecture diagrams, API docs) Tj
+/F1 9 Tf 1 0 0 1 50 318.9 Tm (· DSA refresher tuned to Java interview rounds) Tj
+/F1 9 Tf 1 0 0 1 50 304.8 Tm (· System design interview basics \(load, caching, scaling\)) Tj
+/F1 9 Tf 1 0 0 1 50 290.8 Tm (· Mock technical interviews: live coding and project defence) Tj
+/F1 9 Tf 1 0 0 1 50 276.7 Tm (· Code review etiquette and Git workflow in teams) Tj
+/F1 9 Tf 1 0 0 1 50 262.7 Tm (Lab: Defend both portfolio projects in two recorded mock interviews with written feedback.) Tj
+/F1 12 Tf 1 0 0 1 50 231.3 Tm (CAPSTONE PROJECT) Tj
+/F1 10 Tf 1 0 0 1 50 214.8 Tm (Deployed SaaS-Style Application \(Two-Service Architecture\)) Tj
+/F1 9 Tf 1 0 0 1 50 199.7 Tm (Design, build, secure, and deploy a working SaaS-style application — e.g., a team expense) Tj
+/F1 9 Tf 1 0 0 1 50 186.7 Tm (  tracker or appointment booking system — with a Spring Boot microservice backend \(JWT auth,) Tj
+/F1 9 Tf 1 0 0 1 50 173.6 Tm (  PostgreSQL, Redis caching, Kafka event flow\), a React/TypeScript frontend, containerised) Tj
+/F1 9 Tf 1 0 0 1 50 160.6 Tm (  deployment via GitHub Actions to a live cloud URL. Defended in a recorded mock technical) Tj
+/F1 9 Tf 1 0 0 1 50 147.5 Tm (  interview.) Tj
+/F1 9 Tf 1 0 0 1 50 133.5 Tm (- Two-service Spring Boot backend with OpenAPI documentation) Tj
+/F1 9 Tf 1 0 0 1 50 119.4 Tm (- JWT-secured auth with role-based access) Tj
+/F1 9 Tf 1 0 0 1 50 105.4 Tm (- React 19 + TypeScript frontend with full auth and CRUD flows) Tj
+/F1 9 Tf 1 0 0 1 50 91.3 Tm (- Docker Compose local environment + GitHub Actions deployment pipeline) Tj
+/F1 9 Tf 1 0 0 1 50 77.3 Tm (- Live deployed URL with health checks and structured logs) Tj
+/F1 9 Tf 1 0 0 1 50 63.2 Tm (- Architecture decision record and recorded project defence) Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 1466 >>
+stream
+BT
+/F1 12 Tf 1 0 0 1 50 700.6 Tm (TRAINER) Tj
+/F1 10 Tf 1 0 0 1 50 684.1 Tm (Vikram Deshpande — Principal Engineer & Full-Stack Mentor, 15 years) Tj
+/F1 9 Tf 1 0 0 1 50 669.1 Tm (Vikram has built and scaled Java/React platforms for 15 years, leading teams from) Tj
+/F1 9 Tf 1 0 0 1 50 656.0 Tm (  monolith-to-microservice transitions and mentoring dozens of engineers into product) Tj
+/F1 9 Tf 1 0 0 1 50 643.0 Tm (  companies. His cohorts run on the same review-and-ship cadence as his delivery teams:) Tj
+/F1 9 Tf 1 0 0 1 50 629.9 Tm (  working code, every week.) Tj
+/F1 9 Tf 1 0 0 1 50 615.9 Tm (- Oracle Certified Professional: Java SE 17) Tj
+/F1 9 Tf 1 0 0 1 50 601.8 Tm (- AWS Certified Solutions Architect – Associate) Tj
+/F1 9 Tf 1 0 0 1 50 587.8 Tm (- Scaled platforms serving 2M+ monthly users across fintech and SaaS) Tj
+/F1 12 Tf 1 0 0 1 50 556.4 Tm (UPCOMING COHORTS) Tj
+/F1 9 Tf 1 0 0 1 50 541.3 Tm (- Starts 2026-01-19 · Mon–Fri, 7:30 – 9:30 PM IST · live-virtual · 9/30 seats left \(filling\)) Tj
+/F1 9 Tf 1 0 0 1 50 526.3 Tm (- Starts 2026-03-14 · Sat–Sun, 9:30 AM – 2:30 PM IST · hybrid · 30/30 seats left \(open\)) Tj
+/F1 9 Tf 1 0 0 1 50 503.2 Tm () Tj
+/F1 8 Tf 1 0 0 1 50 487.6 Tm (Syvaxia does not offer job or salary guarantees. Cohort seats are confirmed on first-come,) Tj
+/F1 8 Tf 1 0 0 1 50 476.0 Tm (  first-serve basis.) Tj
+/F1 8 Tf 1 0 0 1 50 462.4 Tm (Questions? WhatsApp us or visit syvaxia.com — Where passion meets innovation.) Tj
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000127 00000 n 
+0000000253 00000 n 
+0000003710 00000 n 
+0000003836 00000 n 
+0000008049 00000 n 
+0000008175 00000 n 
+0000009693 00000 n 
+trailer
+<< /Size 10 /Root 1 0 R >>
+startxref
+9763
+%%EOF

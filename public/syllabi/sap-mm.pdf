@@ -1,0 +1,154 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 5 0 R 7 0 R] /Count 3 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 3378 >>
+stream
+BT
+/F1 16 Tf 1 0 0 1 50 708.8 Tm (SAP MM — MATERIALS MANAGEMENT & SOURCING ON S/4HANA) Tj
+/F1 10 Tf 1 0 0 1 50 690.3 Tm (Procure-to-pay, inventory, and valuation configuration on live S/4HANA.) Tj
+/F1 9 Tf 1 0 0 1 50 675.3 Tm () Tj
+/F1 9 Tf 1 0 0 1 50 658.2 Tm (12 weeks · 10 hrs/week · 7 modules · Level: fresher-friendly · Language: English) Tj
+/F1 9 Tf 1 0 0 1 50 645.2 Tm (Delivery: live-virtual, onsite-bengaluru, hybrid · Live system access: Yes) Tj
+/F1 12 Tf 1 0 0 1 50 613.8 Tm (RECOMMENDED FOR) Tj
+/F1 9 Tf 1 0 0 1 50 598.7 Tm (- Fresh graduates targeting SAP functional consulting) Tj
+/F1 9 Tf 1 0 0 1 50 583.7 Tm (- Procurement, stores, and logistics professionals moving to consulting) Tj
+/F1 9 Tf 1 0 0 1 50 568.6 Tm (- SAP MM end-users seeking configuration-level expertise) Tj
+/F1 12 Tf 1 0 0 1 50 539.2 Tm (PREREQUISITES) Tj
+/F1 9 Tf 1 0 0 1 50 524.2 Tm (- Any graduation; supply chain, operations, or engineering backgrounds fit naturally) Tj
+/F1 9 Tf 1 0 0 1 50 509.1 Tm (- Basic business process awareness \(purchasing, stock, billing concepts\)) Tj
+/F1 9 Tf 1 0 0 1 50 494.1 Tm (- No prior SAP experience required) Tj
+/F1 12 Tf 1 0 0 1 50 464.7 Tm (TOOLS & ENVIRONMENT) Tj
+/F1 9 Tf 1 0 0 1 50 449.6 Tm (SAP S/4HANA \(live sandbox system access\) · SAP GUI & Fiori Launchpad · MRP Live \(S/4HANA\) ·) Tj
+/F1 9 Tf 1 0 0 1 50 436.6 Tm (  SAP Fiori procurement apps \(Manage Purchase Orders, My Inbox\) · Migration Cockpit basics) Tj
+/F1 12 Tf 1 0 0 1 50 407.2 Tm (TARGET ROLES) Tj
+/F1 9 Tf 1 0 0 1 50 392.1 Tm (SAP MM Consultant · S/4HANA Sourcing & Procurement Consultant · SAP Materials Management) Tj
+/F1 9 Tf 1 0 0 1 50 379.1 Tm (  Analyst · P2P Process Consultant) Tj
+/F1 12 Tf 1 0 0 1 50 347.7 Tm (CURRICULUM) Tj
+/F1 10 Tf 1 0 0 1 50 325.2 Tm (M01 — SAP Navigation & Enterprise Structure \(1 week\)) Tj
+/F1 9 Tf 1 0 0 1 50 311.1 Tm (· SAP GUI and Fiori Launchpad navigation) Tj
+/F1 9 Tf 1 0 0 1 50 297.1 Tm (· MM organisational units: plant, storage location, purchasing organisation) Tj
+/F1 9 Tf 1 0 0 1 50 283.0 Tm (· Assignment of organisational units) Tj
+/F1 9 Tf 1 0 0 1 50 269.0 Tm (· The procure-to-pay cycle at a conceptual level) Tj
+/F1 9 Tf 1 0 0 1 50 254.9 Tm (· S/4HANA business partner \(BP\) model for vendors) Tj
+/F1 9 Tf 1 0 0 1 50 240.9 Tm (Lab: Set up plant, storage locations, and purchasing organisations on a live system.) Tj
+/F1 10 Tf 1 0 0 1 50 218.4 Tm (M02 — Master Data \(2 weeks\)) Tj
+/F1 9 Tf 1 0 0 1 50 204.3 Tm (· Material master: views, industries, and data maintenance strategy) Tj
+/F1 9 Tf 1 0 0 1 50 190.3 Tm (· Material types and number ranges) Tj
+/F1 9 Tf 1 0 0 1 50 176.2 Tm (· Vendor master and business partner roles) Tj
+/F1 9 Tf 1 0 0 1 50 162.2 Tm (· Purchasing info records and source lists) Tj
+/F1 9 Tf 1 0 0 1 50 148.1 Tm (· Master data governance basics) Tj
+/F1 9 Tf 1 0 0 1 50 134.1 Tm (Lab: Maintain complete material and vendor masters with info records across org levels.) Tj
+/F1 10 Tf 1 0 0 1 50 111.6 Tm (M03 — Procurement Cycle & Purchasing \(3 weeks\)) Tj
+/F1 9 Tf 1 0 0 1 50 97.5 Tm (· Purchase requisition → RFQ → quotation comparison → PO) Tj
+/F1 9 Tf 1 0 0 1 50 83.5 Tm (· Purchasing document types and release procedures) Tj
+/F1 9 Tf 1 0 0 1 50 69.4 Tm (· Outline agreements: contracts and scheduling agreements) Tj
+/F1 9 Tf 1 0 0 1 50 55.4 Tm (· Message determination and output management) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 4003 >>
+stream
+BT
+/F1 9 Tf 1 0 0 1 50 718.0 Tm (· Vendor evaluation and supplier collaboration in S/4HANA) Tj
+/F1 9 Tf 1 0 0 1 50 703.9 Tm (Lab: Execute the complete requisition-to-PO flow including an RFQ round and contract.) Tj
+/F1 10 Tf 1 0 0 1 50 681.4 Tm (M04 — Inventory Management & Physical Inventory \(2 weeks\)) Tj
+/F1 9 Tf 1 0 0 1 50 667.4 Tm (· Goods receipt, goods issue, transfers, and reservations) Tj
+/F1 9 Tf 1 0 0 1 50 653.3 Tm (· Movement types and their account postings) Tj
+/F1 9 Tf 1 0 0 1 50 639.3 Tm (· Special stock: consignment, subcontracting, stock transport orders) Tj
+/F1 9 Tf 1 0 0 1 50 625.2 Tm (· Return to vendor and customer returns touchpoints) Tj
+/F1 9 Tf 1 0 0 1 50 611.2 Tm (· Physical inventory: annual, continuous, and cycle counting) Tj
+/F1 9 Tf 1 0 0 1 50 597.1 Tm (Lab: Perform a stock transport order across plants plus a cycle counting exercise.) Tj
+/F1 10 Tf 1 0 0 1 50 574.6 Tm (M05 — Valuation & Account Determination \(2 weeks\)) Tj
+/F1 9 Tf 1 0 0 1 50 560.6 Tm (· Material valuation: standard vs moving average price) Tj
+/F1 9 Tf 1 0 0 1 50 546.5 Tm (· Split valuation) Tj
+/F1 9 Tf 1 0 0 1 50 532.5 Tm (· Automatic account determination \(valuation grouping, modification\)) Tj
+/F1 9 Tf 1 0 0 1 50 518.4 Tm (· Price change documents and material ledger introduction) Tj
+/F1 9 Tf 1 0 0 1 50 504.4 Tm (· Currency and valuation control in S/4HANA) Tj
+/F1 9 Tf 1 0 0 1 50 490.3 Tm (Lab: Configure automatic account determination and trace every P2P posting it generates.) Tj
+/F1 10 Tf 1 0 0 1 50 467.8 Tm (M06 — Invoice Verification \(MIRO\) & Logistics Invoice Verification \(1 week\)) Tj
+/F1 9 Tf 1 0 0 1 50 453.8 Tm (· Logistics invoice verification workflow) Tj
+/F1 9 Tf 1 0 0 1 50 439.7 Tm (· Three-way match: PO, GR, invoice) Tj
+/F1 9 Tf 1 0 0 1 50 425.7 Tm (· Blocking reasons and release of blocked invoices) Tj
+/F1 9 Tf 1 0 0 1 50 411.6 Tm (· Subsequent credits/debits and credit memos) Tj
+/F1 9 Tf 1 0 0 1 50 397.6 Tm (· Invoice monitoring via Fiori apps) Tj
+/F1 9 Tf 1 0 0 1 50 383.5 Tm (Lab: Post invoices against POs — including a deliberately blocked invoice you then release.) Tj
+/F1 10 Tf 1 0 0 1 50 361.0 Tm (M07 — MRP, Consumption-Based Planning & Reporting \(1 week\)) Tj
+/F1 9 Tf 1 0 0 1 50 347.0 Tm (· Consumption-based planning parameters) Tj
+/F1 9 Tf 1 0 0 1 50 332.9 Tm (· MRP Live in S/4HANA and planning results) Tj
+/F1 9 Tf 1 0 0 1 50 318.9 Tm (· Lot sizing, safety stock, and reorder points) Tj
+/F1 9 Tf 1 0 0 1 50 304.8 Tm (· Stock/requirement analysis and embedded analytics) Tj
+/F1 9 Tf 1 0 0 1 50 290.8 Tm (· Inventory & procurement Fiori analytical apps) Tj
+/F1 9 Tf 1 0 0 1 50 276.7 Tm (Lab: Configure MRP for a plant and analyse planning results in the stock/requirement list.) Tj
+/F1 12 Tf 1 0 0 1 50 245.3 Tm (CAPSTONE PROJECT) Tj
+/F1 10 Tf 1 0 0 1 50 228.8 Tm (Full Procure-to-Pay Configuration for a Manufacturing Client) Tj
+/F1 9 Tf 1 0 0 1 50 213.8 Tm (Configure a complete P2P cycle on a live S/4HANA system for a simulated manufacturer:) Tj
+/F1 9 Tf 1 0 0 1 50 200.7 Tm (  enterprise structure, business-partner-integrated vendor master, document types with release) Tj
+/F1 9 Tf 1 0 0 1 50 187.7 Tm (  strategy, movement-type postings with account determination, and a three-way-match invoice) Tj
+/F1 9 Tf 1 0 0 1 50 174.6 Tm (  verification flow — then demonstrate the entire cycle in a mock client workshop.) Tj
+/F1 9 Tf 1 0 0 1 50 160.6 Tm (- Configured MM enterprise structure and business partner setup) Tj
+/F1 9 Tf 1 0 0 1 50 146.5 Tm (- Purchasing document configuration with release strategy) Tj
+/F1 9 Tf 1 0 0 1 50 132.5 Tm (- Valuation and automatic account determination setup) Tj
+/F1 9 Tf 1 0 0 1 50 118.4 Tm (- Executed P2P demonstration: requisition → PO → GR → MIRO → payment readiness) Tj
+/F1 9 Tf 1 0 0 1 50 104.4 Tm (- Configuration blueprint and workshop presentation) Tj
+/F1 12 Tf 1 0 0 1 50 73.0 Tm (TRAINER) Tj
+/F1 10 Tf 1 0 0 1 50 56.5 Tm (Arjun Menon — Senior SAP Supply Chain Consultant, 13 years) Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Resources << /Font << /F1 9 0 R >> >> /Contents 8 0 R >>
+endobj
+8 0 obj
+<< /Length 1391 >>
+stream
+BT
+/F1 9 Tf 1 0 0 1 50 717.0 Tm (Arjun has spent 13 years implementing SAP MM across manufacturing and retail, leading P2P) Tj
+/F1 9 Tf 1 0 0 1 50 703.9 Tm (  template rollouts for multi-plant operations. His cohorts run the procure-to-pay cycle on) Tj
+/F1 9 Tf 1 0 0 1 50 690.9 Tm (  live systems until configuration decisions — not menu paths — become second nature.) Tj
+/F1 9 Tf 1 0 0 1 50 676.8 Tm (- SAP Certified Application Associate – S/4HANA Sourcing and Procurement) Tj
+/F1 9 Tf 1 0 0 1 50 662.8 Tm (- B.E. Industrial Engineering) Tj
+/F1 9 Tf 1 0 0 1 50 648.7 Tm (- Led MM workstreams in 14 implementations, including 3 global P2P templates) Tj
+/F1 12 Tf 1 0 0 1 50 617.3 Tm (UPCOMING COHORTS) Tj
+/F1 9 Tf 1 0 0 1 50 602.3 Tm (- Starts 2026-01-24 · Sat–Sun, 9:30 AM – 1:30 PM IST · live-virtual · 6/30 seats left) Tj
+/F1 9 Tf 1 0 0 1 50 589.2 Tm (  \(filling\)) Tj
+/F1 9 Tf 1 0 0 1 50 574.2 Tm (- Starts 2026-03-21 · Sat, 10:00 AM – 2:00 PM IST \(onsite option, HSR Layout\) · hybrid ·) Tj
+/F1 9 Tf 1 0 0 1 50 561.1 Tm (  25/25 seats left \(open\)) Tj
+/F1 9 Tf 1 0 0 1 50 538.1 Tm () Tj
+/F1 8 Tf 1 0 0 1 50 522.5 Tm (Syvaxia does not offer job or salary guarantees. Cohort seats are confirmed on first-come,) Tj
+/F1 8 Tf 1 0 0 1 50 510.9 Tm (  first-serve basis.) Tj
+/F1 8 Tf 1 0 0 1 50 497.3 Tm (Questions? WhatsApp us or visit syvaxia.com — Where passion meets innovation.) Tj
+ET
+endstream
+endobj
+9 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 10
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000127 00000 n 
+0000000253 00000 n 
+0000003683 00000 n 
+0000003809 00000 n 
+0000007864 00000 n 
+0000007990 00000 n 
+0000009433 00000 n 
+trailer
+<< /Size 10 /Root 1 0 R >>
+startxref
+9503
+%%EOF
