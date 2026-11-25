@@ -387,12 +387,13 @@ function MenuSelect({
 type Chip = { x: number; y: number; glyph: string }
 
 // Traces for the left half. The right half is the same board mirrored, so the
-// device sits at the meeting point of both.
+// device sits at the meeting point of both. The long traces run to x=680 —
+// under the device puck's edge — so every line visibly connects to it.
 const TRACES = [
-  "M0 236H96M156 236H232Q252 236 252 256V336Q252 356 272 356H430Q450 356 450 376V560Q450 580 470 580H600",
-  "M0 470H118M178 470H300Q320 470 320 490V640Q320 660 340 660H612",
+  "M0 236H96M156 236H232Q252 236 252 256V336Q252 356 272 356H430Q450 356 450 376V560Q450 580 470 580H680",
+  "M0 470H118M178 470H300Q320 470 320 490V640Q320 660 340 660H680",
   "M84 0V122Q84 142 104 142H170",
-  "M0 640H96M156 640H200Q220 640 220 660V760Q220 780 240 780H560",
+  "M0 640H96M156 640H200Q220 640 220 660V760Q220 780 240 780H680",
   "M0 356H24M84 356H160",
   "M330 0V140Q330 160 350 160H380",
 ]
@@ -906,7 +907,7 @@ export function CircuitHero() {
                 <Asterisk size={10} /> /live/
               </p>
               <p className="mfl-info-t">
-                {two("Cohorts capped at 20–30 so everyone gets *reviewed, every single week.")}
+                {two("Cohorts capped at 20–30 seats.")}
               </p>
             </div>
           </div>
